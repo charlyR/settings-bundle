@@ -242,6 +242,32 @@
         <source>label.data.reset.question</source>
         <target>Esta seguro que desea eliminar los datos?</target>
       </trans-unit>
+      
+      <trans-unit id="48">
+        <source>label.none</source>
+        <target>Ninguno</target>
+      </trans-unit>
+      
+      <trans-unit id="49">
+        <source>label.number.init</source>
+        <target>Número inicial</target>
+      </trans-unit>
+
+      <trans-unit id="50">
+        <source>label.number.end</source>
+        <target>Número final</target>
+      </trans-unit>
+
+      <trans-unit id="51">
+        <source>label.number.increment</source>
+        <target>Incremento</target>
+      </trans-unit>
+
+      <trans-unit id="52">
+        <source>label.message</source>
+        <target>Mesaje</target>
+      </trans-unit>
+      
     </body>
   </file>
 </xliff>

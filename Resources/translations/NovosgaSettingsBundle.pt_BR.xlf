@@ -243,6 +243,30 @@
         <target>Deseja realmente limpar os dados de atendimento?</target>
       </trans-unit>
 
+      <trans-unit id="48">
+        <source>label.none</source>
+        <target>Nenhum</target>
+      </trans-unit>
+      
+      <trans-unit id="49">
+        <source>label.number.init</source>
+        <target>Número inicial</target>
+      </trans-unit>
+      
+      <trans-unit id="50">
+        <source>label.number.end</source>
+        <target>Número final</target>
+      </trans-unit>      
+      
+      <trans-unit id="51">
+        <source>label.number.increment</source>
+        <target>Incremento</target>
+      </trans-unit>      
+      
+      <trans-unit id="52">
+        <source>label.message</source>
+        <target>Mensagem</target>
+      </trans-unit>      
     </body>
   </file>
 </xliff>

@@ -75,7 +75,7 @@
                                 {{ form_row(inlineForm.local, { label: false, attr: { 'v-model': 'su.local', 'v-on:change': 'updateServico(su)', 'v-bind:disabled': '!su.ativo' } }) }}
                             </td>
                             <td>
-                                {{ form_row(inlineForm.departamento, { label: false, attr: { 'v-model': 'su.departamento', 'v-on:change': 'updateServico(su)', 'v-bind:disabled': '!su.ativo' } }) }}
+                                {{ form_row(inlineForm.departamento, { label: false, placeholder:'label.none' | trans, attr: { 'v-model': 'su.departamento', 'v-on:change': 'updateServico(su)', 'v-bind:disabled': '!su.ativo' } }) }}
                             </td>
                             <td class="text-right">
                                 <button type="button" class="btn btn-secondary" v-on:click="showModal(su)">
@@ -345,19 +345,19 @@
                                     <div class="col-4">
                                         <div class="row">
                                             <div class="col-7">
-                                                {{ form_row(form.sigla, { attr: { 'v-model': 'servicoUnidade.sigla', 'v-on:input': 'uppercase(servicoUnidade)' } }) }}
+                                                {{ form_row(form.sigla, { label:'label.prefix' | trans, attr: { 'v-model': 'servicoUnidade.sigla', 'v-on:input': 'uppercase(servicoUnidade)' } }) }}
                                             </div>
                                             <div class="col-5">
-                                                {{ form_row(form.peso, { attr: { 'v-model': 'servicoUnidade.peso' } }) }}
+                                                {{ form_row(form.peso, { label:'label.weight' | trans, attr: { 'v-model': 'servicoUnidade.peso' } }) }}
                                             </div>
                                         </div>
 
-                                        {{ form_row(form.local, { attr: { 'v-model': 'servicoUnidade.local' } }) }}
+                                        {{ form_row(form.local, { label:'label.local' | trans, attr: { 'v-model': 'servicoUnidade.local' } }) }}
 
-                                        {{ form_row(form.departamento, { attr: { 'v-model': 'servicoUnidade.departamento' } }) }}
+                                        {{ form_row(form.departamento, { label:'label.department' | trans, attr: { 'v-model': 'servicoUnidade.departamento' } }) }}
                                     </div>
                                     <div class="col-4">
-                                        {{ form_row(form.mensagem, { attr: { 'v-model': 'servicoUnidade.mensagem', rows: 10 } }) }}
+                                        {{ form_row(form.mensagem, { label:'label.message' | trans, attr: { 'v-model': 'servicoUnidade.mensagem', rows: 10 } }) }}
                                     </div>
                                     <div class="col-4">
                                         <span class="col-12">&nbsp;</span>
@@ -372,13 +372,13 @@
                                 <legend>{{ 'label.counter'|trans }}</legend>
                                 <div class="row">
                                     <div class="col-4">
-                                        {{ form_row(form.numeroInicial, { attr: { 'v-model': 'servicoUnidade.numeroInicial' } }) }}
+                                        {{ form_row(form.numeroInicial, { label: 'label.number.init'|trans, attr: { 'v-model': 'servicoUnidade.numeroInicial' } }) }}
                                     </div>
                                     <div class="col-4">
-                                        {{ form_row(form.numeroFinal, { attr: { 'v-model': 'servicoUnidade.numeroFinal' } }) }}
+                                        {{ form_row(form.numeroFinal, { label: 'label.number.end'|trans, attr: { 'v-model': 'servicoUnidade.numeroFinal' } }) }}
                                     </div>
                                     <div class="col-4">
-                                        {{ form_row(form.incremento, { attr: { 'v-model': 'servicoUnidade.incremento' } }) }}
+                                        {{ form_row(form.incremento, { label: 'label.number.increment'|trans, attr: { 'v-model': 'servicoUnidade.incremento' } }) }}
                                     </div>
                             </fieldset>
                         </div>

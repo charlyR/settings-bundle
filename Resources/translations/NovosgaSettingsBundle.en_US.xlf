@@ -194,6 +194,30 @@
         <source>label.data.reset.question</source>
         <target>Do you really want to delete attendance data?</target>
       </trans-unit>
+      <trans-unit id="48">
+        <source>label.none</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>label.number.init</source>
+        <target>Initial number</target>
+      </trans-unit>
+
+      <trans-unit id="50">
+        <source>label.number.end</source>
+        <target>Final number</target>
+      </trans-unit>
+
+      <trans-unit id="51">
+        <source>label.number.increment</source>
+        <target>Increment</target>
+      </trans-unit>
+
+      <trans-unit id="52">
+        <source>label.message</source>
+        <target>Message</target>
+      </trans-unit>
+
     </body>
   </file>
 </xliff>

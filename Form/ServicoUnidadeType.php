@@ -59,7 +59,6 @@ class ServicoUnidadeType extends AbstractType
             ->add('departamento', EntityType::class, [
                 'label' => 'label.department',
                 'class' => Departamento::class,
-                'placeholder' => 'Nenhum',
                 'required' => false,
                 'query_builder' => function (EntityRepository $er) {
                     return $er->createQueryBuilder('e')
